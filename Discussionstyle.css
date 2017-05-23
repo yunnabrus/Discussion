@@ -1,0 +1,111 @@
+body {
+    margin: 20px 40px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 600px;
+    width: 800px;
+    border: 3px solid;
+}
+
+.flex-roof {
+    height: 70px;
+    border: 1px solid;
+    padding-left: 10px;
+    line-height: 0.1em;
+    background-color: #FF6E2E;
+    font-family: Courier, Courier, monospace;
+}
+
+input {
+    float: right;
+    margin: 6px;
+    border: none;
+    background-color: #FF6E2E;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+.flex-floor {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: 528px;
+    overflow-y: scroll;
+}
+
+.flex-zelle {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 130px;
+    background-color: #D14000;
+}
+
+.flex-leftside {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 150px;
+    border-right: 1px solid;
+    font-weight: 900;
+}
+
+        .flex-circle {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            text-align: center;
+            font-size: 22px;
+            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+            line-height: 50px;
+            background-color: #FF6E2E;
+        }
+
+        .flex-date {
+            text-align: center;
+            font-size: 9px;
+            line-height: 20px;
+            padding-left: 10px;
+            font-family: Courier, Courier, monospace;
+        }
+
+.flex-rightside {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 629px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+        .flex-name {
+            height: 20px;
+            width: 80px;
+            line-height: 28px;
+            padding: 0.3em;
+        }
+
+        .flex-text {
+            border: 1px solid;
+            height: 70px;
+            width: 580px;
+            padding: 0.3em;
+            background-color: #FF5E17;
+        }
